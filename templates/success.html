@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Welcome</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            flex-direction: column; /* Arrange elements vertically */
+        }
+
+        .title {
+            text-align: center;
+            font-size: 36px;
+            color: #333;
+            animation: slideIn 1s ease forwards;
+            opacity: 0;
+            margin-bottom: 20px;
+        }
+
+        .attractive-text {
+            text-align: center;
+            font-size: 24px;
+            color: #555;
+            animation: fadeIn 1s ease forwards;
+            opacity: 0;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Success Login</div>
+    <div class="attractive-text">
+        <p id="welcomeMessage">Welcome User!</p>
+        <p>Explore our exciting features!</p>
+    </div>
+    
+</body>
+</html>
