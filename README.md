@@ -1,7 +1,10 @@
 # Face-Login-Signup WebApp
 
 Project Preview..
-https://github.com/bhatiaarpit/Face-Login-Signup/assets/118626392/d589b3e9-2ff9-411c-927b-060350c31bf6
+
+
+https://github.com/bhatiaarpit/Face-Login-Signup/assets/118626392/409490cc-3748-4fb7-89a8-d859e8eb98c9
+
 
 
 This project is a web application that implements face recognition for login and signup functionalities. The application is built using HTML, CSS, JavaScript, Flask, and a facial recognition library.
@@ -10,7 +13,6 @@ This project is a web application that implements face recognition for login and
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
